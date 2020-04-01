@@ -166,8 +166,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   units: []
   unit: {fileID: 4781176277170876727, guid: 90cdb5866c399094b9c535c0d29484af, type: 3}
-  numUnits: 20
+  numUnits: 30
   range: {x: 20, y: 10, z: 5}
+  neighbourDistance: 50
+  maxForce: 2
+  maxVelocity: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

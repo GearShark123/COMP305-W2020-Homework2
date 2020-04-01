@@ -119,7 +119,8 @@ public class UnitController : MonoBehaviour
     void Update()
     {
         Flock();
-        goalPos = manager.transform.position;
+        goalPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //goalPos = manager.transform.position;
     }
 }
 

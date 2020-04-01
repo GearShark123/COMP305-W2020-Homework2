@@ -6,17 +6,17 @@ public class AllUnits : MonoBehaviour
 {
     public GameObject[] units;
     public GameObject unit;
-    public int numUnits = 20;
+    public int numUnits = 30;
     public Vector3 range = new Vector3(5, 5, 5);
 
     [Range(0, 200)]
     public int neighbourDistance = 50;
 
     [Range(0, 2)]
-    public float maxForce = 0.5f;
+    public float maxForce = 2f;
 
     [Range(0, 5)]
-    public float maxVelocity = 2.0f;
+    public float maxVelocity = 5f;
 
     void OnDrawGizmosSelected()
     {
